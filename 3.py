@@ -1,0 +1,5 @@
+price=str(input('Введите стоимость шоколадок: '))
+price=price.split(' ')
+a=int(price[0])
+b=int(price[1])
+print(a+b)
